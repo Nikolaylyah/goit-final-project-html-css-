@@ -154,15 +154,18 @@
 }
 .about__link {
     color: var(--color-accent);
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.29;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding-left: 37px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 37px;
+}
+.about__btn:hover {
+    background-color: #ECEBEB;
 }
 .about__link-part {
     margin-left: 13px;
