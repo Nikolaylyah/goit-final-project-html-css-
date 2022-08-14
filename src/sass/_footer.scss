@@ -267,8 +267,12 @@ body {
             letter-spacing: 0.02em;
             color: var(--black);
 
+            @media screen and (min-width: 769px) and (max-width: 1200px) {
+            font-size: 14px;
+            }
+ 
             @media screen and(max-width: 768px) {
-                font-size: 12px;
+            font-size: 12px;
             }
 
             span {
