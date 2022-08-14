@@ -81,9 +81,8 @@ $font-accent: 'Titan One';
     // button
     
     &__close-button {
-        position: fixed;
-        top: 5px;
-        right: 5px;
+        
+        
         padding: 0;
         border: 1px solid transparent;
         border-radius: 50%;
@@ -105,6 +104,11 @@ $font-accent: 'Titan One';
 
     }
 
+    &__close-top {
+        top: 5px;
+        right: 5px;
+        position: fixed;
+    }
     &__icon-close {
         width: 30px;
         height: 36px;
@@ -481,5 +485,14 @@ $font-accent: 'Titan One';
         fill: var(--color-primary);
     }
     
-
+    &__end {
+        display: flex;
+        position: relative;
+    }
+    &__close-end {
+        right: -10px;
+        bottom: -40px;
+        position: absolute;
+    }
+    
 }
