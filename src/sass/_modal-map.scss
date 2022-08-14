@@ -1,0 +1,85 @@
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;      
+}
+
+.backdrop-map {
+    position: fixed;
+    top: 0;
+    left: 0;    
+
+    width: 100%;
+    height: 100%;
+    
+    background-color: var(--color-primary);    
+    opacity: 0.9;   
+}
+
+.map {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+    width: 300px;
+    height: 440px;
+
+    @media screen and (min-width: 480px) {
+        width: 460px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 740px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 900px;
+   }
+    
+    &__top-line {
+        margin-bottom: 10px;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        
+    &__title {        
+        font-family: 'Titan One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+
+        color: var(--color-accent);
+    }
+
+    &__btn {
+        margin-right: 4px;
+        border: 0;
+        padding: 0;
+        
+        background-color: transparent;       
+        cursor: pointer;
+    }
+
+    &__icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+
+        fill: var(--color-accent);
+        transition: fill var(--timing-function);
+    }
+}
+
+.map__btn:hover .map__icon {
+    fill: var(--background-button);
+}
+.map__btn:focus .map__icon {
+    fill: var(--background-button);
+}
