@@ -163,6 +163,10 @@ body {
                 margin-right: 0;
                 margin-bottom: 10px;
             }
+
+            @media screen and(min-width: 362px) and (max-width: 769px) {
+            margin-right: 12px;
+            }
         }
 
         button.type_pink {
