@@ -42,8 +42,9 @@
     }
     @media screen and (min-width: 1200px) {
         background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
-        max-width: 1168px;
+        max-width: 1200px;
         background-image: url(../images/desktop/milk-desktop-1x.png);
                     
             @media (min-device-pixel-ratio:2),
