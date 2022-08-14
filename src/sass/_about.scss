@@ -41,9 +41,9 @@
         align-items: center;
     }
     @media screen and (min-width: 1200px) {
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
-        max-width: 1200px;
+        max-width: 1168px;
         background-image: url(../images/desktop/milk-desktop-1x.png);
                     
             @media (min-device-pixel-ratio:2),
@@ -90,6 +90,7 @@
         }
     @media screen and (min-width: 1200px) {
         font-size: 16px;
+        max-width: 463px;
         }
 }
 .about__main-wrap {
@@ -131,6 +132,7 @@
         }
     @media screen and (min-width: 1200px) {
             font-size: 14px;
+            max-width: 463px;
         }
 }
 .about__btn {
