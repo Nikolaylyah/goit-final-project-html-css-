@@ -81,7 +81,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 162%;
+    line-height: 1.58;
     color: var(--color-second);
 
     margin-right: 60px;
@@ -90,10 +90,12 @@
     @media screen and (min-width: 768px) {
         max-width: 334px;
         margin-right: 2px;
+        line-height: 1.78;
         }
     @media screen and (min-width: 1200px) {
         font-size: 16px;
         max-width: 463px;
+        line-height: 1.75;
         }
 }
 .about__secondary-wrap {
@@ -117,7 +119,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 162%;
+    line-height: 1.58;
     color: var(--color-gray);
 
     margin-right: 60px;
@@ -132,10 +134,12 @@
             max-width: 334px;
             margin-right: 2px;
             padding-top: 40px;
+            font-size: 14px;
+            line-height: 1.78;
         }
     @media screen and (min-width: 1200px) {
-            font-size: 14px;
             max-width: 463px;
+            line-height: 1.93;
         }
 }
 .about__btn {
