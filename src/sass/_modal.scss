@@ -383,6 +383,10 @@ $font-accent: 'Titan One';
             border-color: var(--color-accent);
         }
 
+        &::placeholder {
+            color: var(--color-middle);
+        }
+
     }
 
     &__form-place {
@@ -429,7 +433,7 @@ $font-accent: 'Titan One';
         margin-right: auto;
         margin-bottom: 10px;
         padding: auto 24px;
-        width: 150px;
+        width: 130px;
         height: 40px;
         background-color: var(--color-primary);
         color: var(--color-accent);
@@ -439,7 +443,7 @@ $font-accent: 'Titan One';
         font-weight: 700;
         font-size: 14px;
         line-height: 1.3;
-        text-align: center;
+        text-align: right;
         align-items: center;
     
         transition-property: color, background-color;
