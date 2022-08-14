@@ -2,14 +2,14 @@ $font-primery: 'DM Sans';
 $font-accent: 'Titan One';
 
 // just button in header
-// .button {
-//     padding: 10px 20px;
-//     display: inline-block;
-//     background-color: var(--background-middle);
-//     color: var(--color-second);
-//     border-radius: 3px;
-//     text-decoration: none;
-// }
+.button {
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: var(--background-middle);
+    color: var(--color-second);
+    border-radius: 3px;
+    text-decoration: none;
+}
 
 .backdrop {
     position: fixed;
@@ -87,8 +87,8 @@ $font-accent: 'Titan One';
         padding: 0;
         border: 1px solid transparent;
         border-radius: 50%;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -106,8 +106,8 @@ $font-accent: 'Titan One';
     }
 
     &__icon-close {
-        width: 24px;
-        height: 30px;
+        width: 30px;
+        height: 36px;
         fill: var(--color-accent);
 
         transition-property: fill;
@@ -124,9 +124,9 @@ $font-accent: 'Titan One';
     &__logo {
         display: flex;
         position: absolute;
-        top: -8px;
-        left: -3px;
-        width: 140px;
+        top: -5px;
+        left: -10px;
+        width: 200px;
         height: 60px;
         align-items: center;
         justify-content: center;
@@ -134,7 +134,7 @@ $font-accent: 'Titan One';
     }
 
     &__logo-icon {
-        width: 120px;
+        width: 200px;
         height: 40px;
         fill: var(--color-accent);
     }
@@ -339,7 +339,7 @@ $font-accent: 'Titan One';
         text-transform: uppercase;
         margin-bottom: 8px;
     }
-    &____subscription {
+    &__subscription {
         display: block;
         @media screen and (min-width: 768px) {
             display: flex;
@@ -357,7 +357,7 @@ $font-accent: 'Titan One';
         justify-content: center;
 
         @media screen and (min-width: 768px) {
-            gap: 30px;
+            margin: 8px;
         }
         
     }
