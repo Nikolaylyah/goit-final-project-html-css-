@@ -2,27 +2,39 @@ address {
     font-style: normal;
 }
 
-
 .contacts {
-    background: linear-gradient(
-        to bottom,
-        var(--color-primary) 15%,
-        var(--background-lightsand) 0%);
-    
-    @media screen and (min-width: 320px) {
-        width: 320px;
-    }
+    background: linear-gradient(to bottom,
+            var(--color-primary) 22%,
+            var(--background-lightsand) 0%);
 
     @media screen and (min-width: 768px) {
-        width: 768px;
+        background: linear-gradient(to bottom,
+                var(--color-primary) 50%,
+                var(--background-lightsand) 0%);
     }
 
     @media screen and (min-width: 1200px) {
-        width: 1200px;
+        background: linear-gradient(to bottom,
+                var(--color-primary) 24%,
+                var(--background-lightsand) 0%);
     }
 
-    padding-top: 30px;
-    padding-bottom: 18px;
+    &__container {
+        @media screen and (min-width: 320px) {
+            width: 320px;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 1200px;
+        }
+
+        padding-top: 30px;
+        padding-bottom: 18px;
+    }
 
     &__card-list {
         margin-bottom: 36px;
