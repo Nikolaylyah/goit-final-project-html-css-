@@ -21,9 +21,6 @@ button {
 body {
     // background-color: gray;
 }
-
-
-
 .font_for {
     font-family: 'DM Sans';
     font-size: 16px;
@@ -33,15 +30,9 @@ body {
     text-align: center;
     border: 0;
 }
-
-
-
 .footer-passion__button span {
     margin: 0 0 0 7px;
 }
-
-
-
 .font_pink {
     font-family: 'Titan One';
     font-size: 58px;
@@ -89,9 +80,6 @@ body {
     }
 
 }
-
-
-
 .footer-passion__box {
     display: flex;
     justify-content: space-between;
@@ -115,15 +103,14 @@ body {
     letter-spacing: 0.02em;
 }
 
-.container {
+.footer-container {
     margin: 0 auto;
     max-width: 1200px;
     // min-height: 405px;
     background-color: var(--background-pink);
 
-
     @media screen and (min-width: 768px) and (max-width: 1200px) {
-        max-width: 1200px;
+        max-width: 1200px;       
     }
 
     @media screen and (max-width: 768px) {
@@ -177,7 +164,6 @@ body {
             outline: none;
             border: 0;
             background-color: var(--footer-white);
-
             transition:
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -185,12 +171,10 @@ body {
             @media screen and(min-width: 768px) and (max-width: 1200px) {
                 width: 174px;
             }
-
             @media screen and (max-width: 768px) {
                 width: 161px;
             }
         }
-
         button.but_pink:hover,
         button.type_pink:hover {
             background-color: var(--pink);
@@ -198,18 +182,10 @@ body {
         }
     }
 
-
-    &__top {}
-
     &__right-box {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-
-
-
-
-
         .footer-passion__social-networks {
             display: flex;
             justify-content: flex-end;
@@ -218,30 +194,23 @@ body {
             @media screen and (min-width: 768px) and (max-width: 1200px) {
                 margin-top: 60px;
             }
-
             @media screen and (max-width: 768px) {
                 margin-top: 40px;
                 margin-right: 0;
             }
-
             .footer-passion__square {
                 display: block;
                 width: 34px;
                 height: 34px;
-
                 overflow: hidden;
                 border-radius: 50%;
                 background-color: var(--icon-pink);
-
-
                 .footer-passion__icon {
                     transform: translate(-0.5%, -1.5%);
                     width: 34px;
                     height: 34px;
                     background-color: var(--icon-pink);
-
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
                     @media screen and(max-width: 768px) {
                         width: 32px;
                         height: 32px;
@@ -256,9 +225,7 @@ body {
             .footer-passion__square:not(:last-child) {
                 margin-right: 30px;
             }
-
         }
-
         .footer-passion__tel {
             font-family: 'DM Sans';
             font-weight: 700;
@@ -266,27 +233,18 @@ body {
             line-height: 1.87;
             letter-spacing: 0.02em;
             color: var(--black);
-
             @media screen and (min-width: 769px) and (max-width: 1200px) {
                 font-size: 14px;
             }
-
             @media screen and(max-width: 768px) {
                 font-size: 12px;
             }
-
             span {
                 color: var(--pink-title);
             }
         }
-
-
-
     }
-
     &__copyright {
-
-
         text-align: center;
         font-family: 'DM Sans';
         font-style: normal;
@@ -299,25 +257,19 @@ body {
         width: 50%;
         height: 37px;
         padding-top: 5px;
-
         color: var(--silver-footer);
-
         @media screen and(min-width: 768px) and (max-width: 1200px) {
             margin-top: 4px;
         }
-
         @media screen and(max-width: 768px) {
             font-size: 14px;
             margin-top: 14px;
             height: 60px;
         }
     }
-
 }
-
 .footer-passion__box-title {
     width: 50%;
-
     @media screen and(max-width: 768px) {
         width: 90%;
     }
@@ -328,7 +280,6 @@ body {
     height: 1px;
     margin-top: 60px;
     background-color: var(--line-footer);
-
     @media screen and (max-width: 1200px) {
         margin-top: 40px;
     }
