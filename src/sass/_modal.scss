@@ -71,7 +71,7 @@ $font-accent: 'Titan One';
         width: 6px;
     }
     &::-webkit-scrollbar-track {
-        background: var(--background-middle);
+        background: transparent;
     }
     &::-webkit-scrollbar-thumb {
         background-color: var(--background-lightsand);
@@ -518,7 +518,9 @@ $font-accent: 'Titan One';
         right: -5px;
         bottom: -30px;
         position: absolute;
-        padding: auto 8px;
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-left: 28px;
         width: 88px;
         height: 40px;
         background-color: var(--color-primary);
@@ -529,7 +531,7 @@ $font-accent: 'Titan One';
         font-weight: 700;
         font-size: 14px;
         line-height: 1.3;
-        text-align: right;
+        
         align-items: center;
     
         transition-property: color, background-color;
@@ -551,7 +553,7 @@ $font-accent: 'Titan One';
     &__icon-end {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 5px;
         width: 30px;
         height: 36px;
         fill: var(--color-accent);
